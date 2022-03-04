@@ -49,7 +49,7 @@ public class HookBehaviour : MonoBehaviour
         float travelDistance = Vector2.Distance(transform.position, origin.position);
 
         // Check if the grappling hook has traveled the maximum distance
-        if (travelDistance > hookDistance || Vector2.Distance(transform.position, firePoint) > hookDistance * 2 && !hooked)
+        if (travelDistance > hookDistance || (Vector2.Distance(transform.position, firePoint) > hookDistance * 2 && !hooked))
         {
             // Assign the hook to be at it's maximum distance
             PullBack();

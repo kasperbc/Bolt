@@ -33,11 +33,9 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
+        // Assign the dialogue box and text
         uiPanel = GameObject.Find("DialogueBox");
         uiText = GameObject.Find("DialogueText").GetComponent<Text>();
-
-        SetDialogue("Testing 12345");
-        QueueDialogue("Testing 123456789");
     }
 
     /// <summary>
@@ -47,6 +45,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogue = dia;
 
+        StopAllCoroutines();
         StartCoroutine(ShowDialogue());
     }
 
@@ -56,14 +55,25 @@ public class DialogueManager : MonoBehaviour
     /// <param name="dia"></param>
     public void QueueDialogue(string dia)
     {
-        // Add the dialogue to the queue
-        queuedDialogue.Add(dia);
-
-        // Show the dialogue if none are running
+        // Is any dialogue running?
         if (!uiPanel.GetComponent<Animator>().GetBool("Show"))
         {
-            StartCoroutine(ShowDialogue());
+            // If yes, Show the dialogue directly
+            SetDialogue(dia);
         }
+        else
+        {
+            // If not, Add the dialogue to the queue
+            queuedDialogue.Add(dia);
+        }
+    }
+
+    /// <summary>
+    /// Clears the dialogue queue.
+    /// </summary>
+    public void ClearQueue()
+    {
+        queuedDialogue.Clear();
     }
 
     /// <summary>
@@ -85,12 +95,21 @@ public class DialogueManager : MonoBehaviour
         // Adds all the characters one by one
         for (int i = 0; i < dialogue.Length; i++)
         {
+            // Set the wait time to the next character
+            float waitTime = 0.05f;
+
+            // Double the wait time if it's at the end of a sentence
+            if (dialogueChars[i].Equals('.') || dialogueChars[i].Equals('!') || dialogueChars.Equals('?'))
+            {
+                waitTime *= 2.5f;
+            }
+
             // Adds the next character to the shown dialogue
             shownDialogue += dialogueChars[i];
             uiText.text = shownDialogue;
 
             // Waits a short time (should be adjustable)
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(waitTime);
         }
 
         // Waits some time
