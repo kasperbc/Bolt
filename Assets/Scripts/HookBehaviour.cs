@@ -121,9 +121,10 @@ public class HookBehaviour : MonoBehaviour
 
         // Get the ground layer mask
         LayerMask ground = LayerMask.NameToLayer("Ground");
+        LayerMask drone = LayerMask.NameToLayer("Drone");
 
-        // Has the grappling hook hit the ground/wall?
-        if (collision.gameObject.layer == ground)
+        // Has the grappling hook hit a wall or a drone?
+        if (collision.gameObject.layer == ground || collision.gameObject.layer == drone)
         {
             // If yes, declare the hook hooked
             hooked = true;

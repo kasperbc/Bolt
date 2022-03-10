@@ -190,8 +190,16 @@ public class PlayerMovement : MonoBehaviour
         // Adjust the movement direction based on the input
         moveDirection = Mathf.Lerp(moveDirection, horiInput, acceletarion / 10);
 
-        // Move the player
-        transform.Translate(Vector2.right * moveDirection * moveSpeed * Time.deltaTime);
+        // Get the position that the player would be in next frame
+        Vector3 futurePos = transform.position + Vector3.right * moveDirection * moveSpeed * Time.deltaTime + Vector3.up * 0.2f;
+        int groundMask = LayerMask.GetMask("Ground");
+
+        // Check if there is a wall in the player's position next frame
+        if (!Physics2D.BoxCast(futurePos, cl.bounds.size, 0, Vector2.zero, 5, groundMask))
+        {
+            // Move the player
+            transform.Translate(Vector2.right * moveDirection * moveSpeed * Time.deltaTime);
+        }
 
         // Flip the player's sprite based on the direction
         rend.flipX = moveDirection < 0;

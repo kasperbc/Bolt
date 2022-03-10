@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2370532050590686036}
   - component: {fileID: 2370532050590686041}
   - component: {fileID: 7453680931114466464}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: CarrierDrone
   m_TagString: Drone
   m_Icon: {fileID: 0}
@@ -102,6 +102,8 @@ MonoBehaviour:
   movesTowards: {x: 10, y: 10}
   moveSpeed: 4
   movesUponContact: 1
+  loadLevel: 
+  letGoOfHook: 0
 --- !u!61 &2370532050590686036
 BoxCollider2D:
   m_ObjectHideFlags: 0
