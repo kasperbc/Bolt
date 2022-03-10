@@ -498,6 +498,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a329342ee17f1e547b2d28a45f7f9dd7, type: 3}
+--- !u!1001 &241787302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1477881599}
+    m_Modifications:
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211167122615297775, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: dialogue
+      value: Unfortunately, the mines are also capable of movement. No clue how that
+        works.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252484, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 104.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+--- !u!4 &241787303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+  m_PrefabInstance: {fileID: 241787302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &268002093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2370532050590686037, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
@@ -616,7 +691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312285480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4339056, y: 17.5, z: -10}
+  m_LocalPosition: {x: 0.44202137, y: 17.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1714492858}
@@ -690,6 +765,81 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2370532050590686037, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
   m_PrefabInstance: {fileID: 1789145167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &400880142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1477881599}
+    m_Modifications:
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211167122615297775, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: dialogue
+      value: In addition to floating, drones are also capable of moving. Amazing,
+        I know.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252484, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+--- !u!4 &400880143 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+  m_PrefabInstance: {fileID: 400880142}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &460827564 stripped
 Transform:
@@ -766,6 +916,81 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2370532050590686037, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
   m_PrefabInstance: {fileID: 1735834974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &516140532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1477881599}
+    m_Modifications:
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211167122615297775, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: dialogue
+      value: You will also find floating electric mines often. They are not as friendly
+        as the drones.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252484, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+--- !u!4 &516140533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+  m_PrefabInstance: {fileID: 516140532}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &526756307
 PrefabInstance:
@@ -852,6 +1077,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a329342ee17f1e547b2d28a45f7f9dd7, type: 3}
+--- !u!1001 &546540926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1477881599}
+    m_Modifications:
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892427940057427798, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211167122615297775, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: dialogue
+      value: Welcome to the second trial. In the city, you will often find different
+        kinds drones. Feel free to grab onto them, they don't mind.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252484, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+--- !u!4 &546540927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8220547652970252485, guid: 5f03e3b35a38d564e9823e09a59fffe8, type: 3}
+  m_PrefabInstance: {fileID: 546540926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &558507075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,6 +2558,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1477881598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1477881599}
+  m_Layer: 0
+  m_Name: DialogueTriggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1477881599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477881598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 546540927}
+  - {fileID: 516140533}
+  - {fileID: 400880143}
+  - {fileID: 241787303}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1490147236
 PrefabInstance:
   m_ObjectHideFlags: 0

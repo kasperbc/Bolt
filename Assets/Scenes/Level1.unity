@@ -1030,22 +1030,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1104470797253734993, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Text
-      value: TEST
-      objectReference: {fileID: 0}
-    - target: {fileID: 1104470797253734993, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.b
-      value: 0.9528302
-      objectReference: {fileID: 0}
-    - target: {fileID: 1104470797253734993, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.g
-      value: 0.9528302
-      objectReference: {fileID: 0}
-    - target: {fileID: 1104470797253734993, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.r
-      value: 0.9528302
-      objectReference: {fileID: 0}
     - target: {fileID: 1246180548183729465, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -1217,22 +1201,6 @@ PrefabInstance:
     - target: {fileID: 7492590668746088060, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977759660260185305, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.a
-      value: 0.5882353
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977759660260185305, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977759660260185305, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5754717
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977759660260185305, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
-      propertyPath: m_Color.r
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8940472926452176700, guid: bb7a0de019b7add4a919c51e01237d4a, type: 3}
       propertyPath: m_AnchoredPosition.y
