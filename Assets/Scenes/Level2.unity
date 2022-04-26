@@ -691,7 +691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312285480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.44202137, y: 17.5, z: -10}
+  m_LocalPosition: {x: 0.45170975, y: 17.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1714492858}
@@ -3044,6 +3044,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 992557228}
     m_Modifications:
+    - target: {fileID: 2370532050590686034, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370532050590686034, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370532050590686034, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2370532050590686035, guid: d7119f97fed559448b97f16d91c20f19, type: 3}
       propertyPath: m_Name
       value: CarrierDrone

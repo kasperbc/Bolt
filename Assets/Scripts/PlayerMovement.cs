@@ -191,11 +191,12 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = Mathf.Lerp(moveDirection, horiInput, acceletarion / 10);
 
         // Get the position that the player would be in next frame
-        Vector3 futurePos = transform.position + Vector3.right * moveDirection * moveSpeed * Time.deltaTime + Vector3.up * 0.2f;
+        Vector3 futurePos = transform.position + Vector3.right * moveDirection * moveSpeed * Time.deltaTime;
+        Vector2 boxSize = new Vector2(cl.bounds.size.x, cl.bounds.size.y / 1.5f);
         int groundMask = LayerMask.GetMask("Ground");
 
         // Check if there is a wall in the player's position next frame
-        if (!Physics2D.BoxCast(futurePos, cl.bounds.size, 0, Vector2.zero, 5, groundMask))
+        if (!Physics2D.BoxCast(futurePos, boxSize, 0, Vector2.zero, 5, groundMask))
         {
             // Move the player
             transform.Translate(Vector2.right * moveDirection * moveSpeed * Time.deltaTime);
